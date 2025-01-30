@@ -14,3 +14,13 @@
    13.   GitHub Copilot : GitHub
    14.   GitHub Copilot Chat : GitHub
 */
+
+/* Keyboard shortcuts are a combination of keys that perform specific actions on a computer. They are a quick way to execute commands without using a mouse. Here are some useful keyboard shortcuts for Visual Studio Code:  */
+
+/*
+   1.  Hold Ctrl (Cmd on Mac) + D to select both the opening and closing tags, then rename them at once.
+   2.  Hold Alt + Shift + Down Arrow to duplicate the current line.
+   3.  Hold Ctrl (Cmd on Mac) + Shift + K to delete the current line.
+   4.  Hold Ctrl (Cmd on Mac) + / to comment out the current line.
+   5.  Hold Ctrl (Cmd on Mac) + Shift + L to select all instances of the current selection.
+*/
