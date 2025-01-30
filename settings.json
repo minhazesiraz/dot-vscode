@@ -1,0 +1,100 @@
+{
+  /* Specifies the path to custom 'atDirectives' data file. */
+  "css.customData": [".vscode/atDirectives.json"],
+  /* Sets the color theme and icon theme. */
+  "workbench.colorTheme": "Learn with Sumit Theme - Dracula version",
+  "workbench.iconTheme": "Symbols of VSCode - Shades of Gray",
+  "workbench.tree.indent": 16,
+  /* Customizes colors for the activity bar. */
+  "workbench.colorCustomizations": {
+    //  "activityBar.background": "#84cc16",
+    //  "activityBar.activeBackground": "#ffffff59",
+    //  "activityBar.activeBorder": "#ffffff",
+    //  "activityBar.foreground": "#ffffff",
+    //  "activityBar.inactiveForeground": "#ffffffa6",
+    "activityBarBadge.background": "#84cc16",
+    "activityBarBadge.foreground": "#ffffffa6"
+    //  "tab.activeBorderTop": "#84cc16"
+  },
+  /* Enables automatic fetching of changes from remote repositories. */
+  "git.autofetch": true,
+  /* Controls editor settings such as tab size, indentation, and formatting. */
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.detectIndentation": false,
+  "editor.insertSpaces": true,
+  "editor.tabSize": 3,
+  "editor.lineNumbers": "on",
+  "editor.letterSpacing": 0,
+  "editor.formatOnSave": true,
+  /* Disables breadcrumb navigation in the editor. */
+  "breadcrumbs.enabled": false,
+  /* Settings specific to JavaScript React and JavaScript files. */
+  "[javascriptreact]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  "[javascript]": {
+    "editor.codeActionsOnSave": {
+      "source.organizeImports": "explicit"
+    }
+  },
+  /* Configures the font settings for the editor. */
+  "editor.fontFamily": "'JetBrains Mono', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontWeight": "normal",
+  "editor.fontSize": 14,
+  "editor.wordWrap": "off",
+  "editor.minimap.enabled": false,
+  /* Customizes the appearance of comments. */
+  "editor.tokenColorCustomizations": {
+    "comments": "#9c9c9c",
+    "textMateRules": [
+      {
+        "scope": "comment",
+        "settings": {
+          "fontStyle": "italic"
+        }
+      }
+    ]
+  },
+  /* Cursor settings for the editor. */
+  "editor.cursorSmoothCaretAnimation": "explicit",
+  "editor.cursorBlinking": "expand",
+  /* Enables Emmet support for React files. */
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  /* Automatically updates imports when files are moved. */
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  /* File associations for JavaScript React files. */
+  "files.associations": {
+    "*.jsx": "javascriptreact",
+    "*.js": "javascriptreact"
+  },
+  /* Specifies user-defined words for spell checking. */
+  "cSpell.userWords": ["Minhaz E Siraz"],
+  /* ESLint configuration. */
+  "eslint.options": {
+    "configFile": ".eslintrc.json"
+  },
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": "explicit",
+    "source.fixAll.tslint": "explicit",
+    "source.organizeImports": "explicit"
+  },
+  "eslint.run": "onSave",
+  /* Path autocomplete configuration. */
+  "path-autocomplete.extensionOnImport": true,
+  "path-autocomplete.excludedItems": {
+    "*/.js": {
+      "when": "**"
+    },
+    "*/.jsx": {
+      "when": "**"
+    }
+  },
+  /* Disables JavaScript and TypeScript validation. */
+  "javascript.validate.enable": false,
+  "typescript.validate.enable": false
+}

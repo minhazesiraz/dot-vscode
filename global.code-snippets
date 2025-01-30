@@ -1,0 +1,7 @@
+{
+  "CODE-SNIPPETS: PRINT TO CONSOLE": {
+    "prefix": "log",
+    "body": ["console.log('$1');", "$2"],
+    "description": "For logging to the console for debugging purposes."
+  }
+}
