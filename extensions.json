@@ -23,4 +23,5 @@
    3.  Hold Ctrl (Cmd on Mac) + Shift + K to delete the current line.
    4.  Hold Ctrl (Cmd on Mac) + / to comment out the current line.
    5.  Hold Ctrl (Cmd on Mac) + Shift + L to select all instances of the current selection.
+   6.  Hold Ctrl (Cmd on Mac) + Shift + P to open the command palette.
 */
